@@ -9,7 +9,7 @@ int checkPallindrom(char str[]) {
     for (int i = 0; i < len; i++) {
         rstr[i] = str[len - 1 - i]; 
     }
-    rstr[len] = '\0'; 
+    rstr[len] = '\0';
 
     printf("Reversed string: %s\n", rstr);
 
