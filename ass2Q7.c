@@ -26,5 +26,6 @@ int main(){
     scanf("%d",&n);
     int *data = takeData(n);
     showData(data,n);
+    free(data);
     return 0;
 }
